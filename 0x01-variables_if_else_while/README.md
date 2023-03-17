@@ -1,0 +1,1 @@
+- Task 0 : print the value of n each time and tells if it's positive, negative or null. 
