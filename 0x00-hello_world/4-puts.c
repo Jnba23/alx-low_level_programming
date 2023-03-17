@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*the main function is the starting point of the program with no arguments in our case*/
+/**
+ *main entry point
+ *return always 0
+ */
 int main(void)
 	{
-
 	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
-
 	}
