@@ -8,12 +8,12 @@ int main(void)
 {
 	int letter = 97;
 
-	while (letter <= 122)	
+	while (letter <= 122)
 	{
 		if (letter == 113 || letter == 101)
 		{
-		continue;
-		letter++;
+			letter++;
+			continue;
 		}
 		putchar(letter);
 		letter++;
