@@ -14,16 +14,16 @@ int main(void)
 		putchar(d1);
 		while (d2 <= 57)
 		{
-		if (d1 >= d2)
-		{
-		continue;
-		}
-		else
+		if (d2 >= d1)
 		{
 		putchar(d2);
 		putchar(',');
 		putchar(' ');
 		d2++;
+		}
+		else
+		{
+		continue;
 		}
 		}
 	}
