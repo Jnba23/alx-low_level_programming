@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int d1 = 48;
+	int d1;
 	int d2 = 48;
 
 	for (d1 = 48; d1 <= 57; d1++)
@@ -17,7 +17,6 @@ int main(void)
 		if (d1 >= d2)
 		{
 		continue;
-		d2++;
 		}
 		else
 		{
