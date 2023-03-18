@@ -19,12 +19,12 @@ int main(void)
 		putchar(d2);
 		putchar(',');
 		putchar(' ');
-		d2++;
 		}
 		else
 		{
 		continue;
 		}
+		d2++;	
 		}
 	}
 	putchar('\n');
