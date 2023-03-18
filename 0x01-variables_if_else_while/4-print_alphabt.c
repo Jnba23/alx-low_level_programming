@@ -8,7 +8,7 @@ int main(void)
 {
 	int letter = 97; 
 
-	while (letter <= 122 && letter != 113, 101)
+	while (letter <= 122 && !(letter == 113 && letter == 101))
 	{
 	putchar(letter);
 	letter++;
