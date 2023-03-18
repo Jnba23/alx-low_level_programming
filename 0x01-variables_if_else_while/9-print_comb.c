@@ -9,7 +9,7 @@ int main(void)
 	int d1 = 48;
 	int d2 = 48;
 
-	while (d1 <= 57)
+	while (d1 <= 57 && d2 <=57)
 	{
 		if (d1 == d2)
 		{
@@ -18,8 +18,10 @@ int main(void)
 		}
 		putchar (d1);
 		putchar (d2);
+		putchar (',');
+		putchar (' ');
 		d1++;
+		d2++;
 	}
-	putchar('\n');
 	return (0);
 }
