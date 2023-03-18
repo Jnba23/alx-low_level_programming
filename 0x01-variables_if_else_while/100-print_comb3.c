@@ -11,12 +11,13 @@ int main(void)
 
 	for (d1 = 48; d1 <= 57; d1++)
 	{
-		putchar (d1);
-		if (d1 <= d2)
-		{
+		putchar(d1);
+		if (d1 >= d2)
+		{	
 		continue;
 		d2++;
-		} else
+		} 
+		else
 		{
 		putchar(d2);
 		putchar(',');
