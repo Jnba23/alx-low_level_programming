@@ -6,12 +6,17 @@
 */
 int main(void)
 {
-	int letter = 97; 
+	int letter = 97;
 
-	while (letter <= 122 && !(letter == 113 && letter == 101))
+	while (letter <= 122)	
 	{
-	putchar(letter);
-	letter++;
+		if (letter == 113 || letter == 101)
+		{
+		continue;
+		letter++;
+		}
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
