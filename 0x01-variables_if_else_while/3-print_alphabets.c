@@ -19,6 +19,6 @@ int main(void)
 		putchar(Uletter);
 		Uletter++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
