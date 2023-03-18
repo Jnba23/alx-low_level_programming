@@ -3,7 +3,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
 {
 	int letter = 97; 
@@ -13,5 +13,6 @@ int main(void)
 	putchar(letter);
 	letter++;
 	}
-	return(0);
+	putchar('\n');
+	return (0);
 }
