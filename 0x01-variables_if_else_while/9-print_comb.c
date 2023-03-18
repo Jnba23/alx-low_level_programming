@@ -8,9 +8,9 @@ int main(void)
 {
 	int d1 = 48;
 
-	while (d1 >= 57)
+	while (d1 <= 57)
 	{
-		if (d1 > 57)
+		if (d1 < 57)
 		{
 		putchar(',');
 		putchar(' ');
