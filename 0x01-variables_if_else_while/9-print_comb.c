@@ -12,6 +12,7 @@ int main(void)
 	{
 		if (d1 < 57)
 		{
+		putchar(d1);
 		putchar(',');
 		putchar(' ');
 		d1++;
