@@ -8,6 +8,7 @@ int main(void)
 {
 	int d1 = 48;
 	int d2;
+
 	while (d1 <= 57)
 	{
 		d2 = 48;
