@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (d3 = 47; d3 <= 57; d3++)
 			{
-				for ( d4 = 48; d4 <= 57; d4++)
+				for (d4 = 48; d4 <= 57; d4++)
 				{
 					if ((d1 + d2) < (d3 + d4))
 					{
@@ -23,16 +23,16 @@ int main(void)
 						putchar(' ');
 						putchar(d3);
 						putchar(d4);
-						if ((d1+d2) != 113 || (d3 + d4) != 114)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if ((d1 + d2) != 113 || (d3 + d4) != 114)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
 		}
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
