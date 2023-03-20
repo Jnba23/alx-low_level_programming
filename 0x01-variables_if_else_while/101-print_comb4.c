@@ -20,14 +20,14 @@ int main(void)
 				{
 					if (d2 < d3)
 					{
-						putchar(d1);
-						putchar(d2);
-						putchar(d3);
-						if (d1 != 55 || d2 != 56 || d3 != 57)
-						{
-							putchar(',');
-							putchar(' ');
-						}	
+					putchar(d1);
+					putchar(d2);
+					putchar(d3);
+					if (d1 != 55 || d2 != 56 || d3 != 57)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
