@@ -6,30 +6,24 @@
 */
 int main(void)
 {
-	int d1, d2, d3, d4;
+	int d1, d2;
 
-	for (d1 = 48; d1 <= 57; d1++)
+	for (d1 = 0; d1 <= 99; d1++)
 	{
-		for (d2 = 48; d2 <= 57; d2++)
+		for (d2 = 0; d2 <= 99; d2++)
 		{
-			for (d3 = 48; d3 <= 57; d3++)
+			if (d1 < d2)
 			{
-				for (d4 = 48; d4 <= 57; d4++)
-				{
-					if ((d1 + d2) < (d3 + d4))
-					{
-						putchar(d1);
-						putchar(d2);
-						putchar(' ');
-						putchar(d3);
-						putchar(d4);
-					if ((d1 + d2) != 113 || (d3 + d4) != 114)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					}
-				}
+			putchar((d1/10) + 48);
+			putchar((d1%10) + 48);
+			putchar(' ');
+			putchar((d2/10) + 48);
+			putchar((d2%10) + 48);
+			if (d1 != 98 || d2 != 99)
+			{
+			putchar(',');
+			putchar(' ');
+			}
 			}
 		}
 	}
