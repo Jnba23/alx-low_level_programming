@@ -1,24 +1,22 @@
-#include<main.h>
+#include<stdio.h>
+#include "main.h"
 /**
- * main print char using the function _putchar 
+ * main - Entry point
+ *
+ * main - prints '_putchar'
+ *
  *
  * Return: Always 0 (Success)
- */
-
-int _putchar( char c)
-{
-	putchar ("%c", c);
-}
+*/
 int main(void)
 {
-	_putchar ('_');
-	_putchar ('p');
-	_putchar ('u');
-	_putchar ('t');
-	_putchar ('c');
-	_putchar ('h');
-	_putchar ('a');
-	_putchar ('r');
-	_putchar ('\n');
+	int i;
+	char string[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(string[i]);
+	}
+	_putchar('\n');
 	return (0);
 }

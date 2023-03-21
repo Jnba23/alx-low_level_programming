@@ -1,10 +1,10 @@
-#ifndef main.h
-#define main.h
+#ifndef MAIN_H
+#define MAIN_H
 /*
  * Structs, enums and unions definitions
  * Typedefs
  * Function prototypes
 */
-int _putchar (char) 
+int _putchar (char); 
 
 #endif /* _SAMPLE_HEADER_H_ */
