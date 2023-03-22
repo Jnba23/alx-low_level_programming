@@ -6,5 +6,5 @@
  * Function prototypes
 */
 int _putchar (char); 
-
+void print_alphabet(void);
 #endif /* _SAMPLE_HEADER_H_ */
