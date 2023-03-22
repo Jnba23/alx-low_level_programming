@@ -2,13 +2,21 @@
 /**
  * print_last_digit - entry point
  * print_last_digit - prints the last digit
- * @d: the last digit of num
+ * @n: the number in question
  * Return: the value of the last digit
- */
-int print_last_digit(int d)
+*/
+int print_last_digit(int n)
 {
-	int num;
+	int d;
 
-	d = num % 10;
+
+	if (n > 0)
+	{
+		d = n % 10;
+	}
+	else
+	{
+		d = n % 10 * (-1);
+	}
 	return (d);
 }
