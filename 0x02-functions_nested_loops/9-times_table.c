@@ -10,9 +10,9 @@ void times_table(void)
 	int y;
 	int multiple;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (y = 48; y <= 57; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			multiple = i * y;
 			if (multiple < 10)
