@@ -12,7 +12,8 @@ void times_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (y = 0; y <= 9; y++)
+		_putchar(48);
+		for (y = 1; y <= 9; y++)
 		{
 			multiple = i * y;
 			if (multiple < 10)
