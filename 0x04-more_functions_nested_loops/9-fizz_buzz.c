@@ -2,9 +2,9 @@
 #include<stdio.h>
 /**
  * main - entry point
- * Return: void
+ * Return: 0
 */
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -27,4 +27,5 @@ void main(void)
 			printf("%d ", n);
 		}
 	}
+	return (0);
 }
