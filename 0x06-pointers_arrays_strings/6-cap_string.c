@@ -21,10 +21,11 @@ char *cap_string(char *s)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-				if (arr[j] == s[i - 1])
-				{
-				 s[i] = s[i] - 32;
-				}
+					if (arr[j] == s[i - 1])
+					{
+					s[i] = s[i] - 32;
+					}
+
 				}
 			}
 		}
