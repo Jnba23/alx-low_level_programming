@@ -1,0 +1,1 @@
+- Task 0 : fills a memory with a constant byte
