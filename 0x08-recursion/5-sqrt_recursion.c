@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - calculate the square value of n
  * @n: the number in question
+ * @i: the square root of n
  * Return: int
 */
 int square(int n, int i);
