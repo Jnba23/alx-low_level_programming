@@ -3,7 +3,7 @@
 gcc -c -Wall -Werror -Wextra *.c
 
 # to bundle all object files within the current directory into one static library liball.a
-ar rc liball.a *.c
+ar rc liball.a *.o
 
 # to indexate the library
 ranlib liball.a
