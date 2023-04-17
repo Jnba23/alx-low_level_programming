@@ -9,13 +9,12 @@
 
 int main(void)
 {
+	int i;
 	char password[PASSWORD_LENGTH + 1];
 	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
-	// Seed the random number generator
 	srand(time(NULL));
-	// Generate the password
-	for (int i = 0; i < PASSWORD_LENGTH; i++) 
+	for (i = 0; i < PASSWORD_LENGTH; i++) 
 	{
 		password[i] = charset[rand() % (sizeof(charset) - 1)];
 	}
