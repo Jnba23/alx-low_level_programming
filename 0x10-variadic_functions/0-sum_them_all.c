@@ -17,15 +17,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		num = va_arg(args, int);
-
-		if (num != (int)num)
-		{
-			/* Check if num is not an integer */
-			va_end(args);
-			return (0); /* Return 0 to indicate an error */
-		}
-		sum += num;
+		sum = sum + va_arg(args, int);
 	}
 	va_end(args);
 	return (sum);
