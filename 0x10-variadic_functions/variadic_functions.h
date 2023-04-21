@@ -1,6 +1,6 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-/**
+/*
  * Structs, enums and unions definitions
  * Typedefs
  * Function prototypes
