@@ -1,1 +1,0 @@
-- Task 0 : creating a static library libmy.a containing all the functions
